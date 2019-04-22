@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace ConsoleApp1
 {
     class Program
     {
@@ -20,6 +20,7 @@ namespace ConsoleApp
         [DllImport("UnhandledExceptionDll.Dll")]
         extern public static void UnhandledThrow();
 
+        [HandleProcessCorruptedStateExceptions]
         public static void Main(string[] args)
         {
 

@@ -4,3 +4,5 @@
 
 void DivideZero();
 void AccessViolation();
+
+void UnhandledThrow();

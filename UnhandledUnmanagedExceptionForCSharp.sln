@@ -7,28 +7,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnhandledExceptionDll", "UnhandledExceptionDll\UnhandledExceptionDll.vcxproj", "{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{8791A733-5DAE-4458-B29A-2C7171D344A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3AA49DB6-900D-4940-B08D-B3AEE89E6D89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{35206774-13B1-4483-8C20-11EAF72BA392}.Debug|x64.ActiveCfg = Debug|x64
 		{35206774-13B1-4483-8C20-11EAF72BA392}.Debug|x64.Build.0 = Debug|x64
-		{35206774-13B1-4483-8C20-11EAF72BA392}.Debug|x86.ActiveCfg = Debug|x64
 		{35206774-13B1-4483-8C20-11EAF72BA392}.Release|x64.ActiveCfg = Release|x64
 		{35206774-13B1-4483-8C20-11EAF72BA392}.Release|x64.Build.0 = Release|x64
-		{35206774-13B1-4483-8C20-11EAF72BA392}.Release|x86.ActiveCfg = Release|x64
 		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Debug|x64.ActiveCfg = Debug|x64
 		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Debug|x64.Build.0 = Debug|x64
-		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Debug|x86.ActiveCfg = Debug|Win32
-		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Debug|x86.Build.0 = Debug|Win32
 		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Release|x64.ActiveCfg = Release|x64
 		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Release|x64.Build.0 = Release|x64
-		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Release|x86.ActiveCfg = Release|Win32
-		{04F1316D-AC82-46CA-A6DE-B051EFE63BC6}.Release|x86.Build.0 = Release|Win32
+		{8791A733-5DAE-4458-B29A-2C7171D344A9}.Debug|x64.ActiveCfg = Debug|x64
+		{8791A733-5DAE-4458-B29A-2C7171D344A9}.Debug|x64.Build.0 = Debug|x64
+		{8791A733-5DAE-4458-B29A-2C7171D344A9}.Release|x64.ActiveCfg = Release|Any CPU
+		{8791A733-5DAE-4458-B29A-2C7171D344A9}.Release|x64.Build.0 = Release|Any CPU
+		{3AA49DB6-900D-4940-B08D-B3AEE89E6D89}.Debug|x64.ActiveCfg = Debug|x64
+		{3AA49DB6-900D-4940-B08D-B3AEE89E6D89}.Debug|x64.Build.0 = Debug|x64
+		{3AA49DB6-900D-4940-B08D-B3AEE89E6D89}.Release|x64.ActiveCfg = Release|x64
+		{3AA49DB6-900D-4940-B08D-B3AEE89E6D89}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,3 +13,8 @@ void AccessViolation()
     int* p = 0;
     *p = 1;
 }
+
+void UnhandledThrow()
+{
+    throw 3;
+}
