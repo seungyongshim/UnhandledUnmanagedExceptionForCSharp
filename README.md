@@ -20,32 +20,32 @@ void AccessViolation()
 }
 ```
 ```csharp
-        [DllImport("UnhandledExceptionDll.Dll")]
-        extern public static void DivideZero();
+[DllImport("UnhandledExceptionDll.Dll")]
+extern public static void DivideZero();
 
-        [DllImport("UnhandledExceptionDll.Dll")]
-        extern public static void AccessViolation();
+[DllImport("UnhandledExceptionDll.Dll")]
+extern public static void AccessViolation();
 
-        public static void Main(string[] args)
-        {
-            try
-            {
-                DivideZero();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
+public static void Main(string[] args)
+{
+    try
+    {
+        DivideZero();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.ToString());
+    }
 
-            try
-            {
-                AccessViolation();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-        }
+    try
+    {
+        AccessViolation();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.ToString());
+    }
+}
 ```
 
 ![이미지이름](./result.png)
