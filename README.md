@@ -55,9 +55,7 @@ public static void Main(string[] args)
 
 ## HandleProcessCorruptedStateExceptions 특성 사용
 - https://docs.microsoft.com/ko-kr/dotnet/api/system.runtime.exceptionservices.handleprocesscorruptedstateexceptionsattribute?view=netframework-4.8
-- 프로세스가 손상된 상태이며 응용 프로그램의 실행을 유지하는 것은 좋지 않음
-- AccessViolationException ave를 catch하여 응용 프로그램을 재실행 하도록 가이드 필요
-
+- https://docs.microsoft.com/ko-kr/dotnet/api/system.accessviolationexception?view=netframework-4.7.2
 ```csharp
 
 using System.Runtime.ExceptionServices;
@@ -68,4 +66,7 @@ public static void Main(string[] args)
    ...
 }
 ```
+
+
+
 
