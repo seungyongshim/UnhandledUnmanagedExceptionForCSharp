@@ -1,0 +1,2 @@
+#define UNHANDLEDEXCEPTIONDLL_API __declspec(dllexport)
+#define UNHANDLEDEXCEPTIONDLL_API __declspec(dllimport)
