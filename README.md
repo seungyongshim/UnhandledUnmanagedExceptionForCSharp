@@ -1,7 +1,7 @@
 # UnhandledUnmanagedExceptionForCSharp
 
 ## Visual Studio 2019 결과
-- 옵션 추가 없이 C#코드에서 C++에서 발생한 UnhandledException을 try~catch한다.
+- 처리되지 않는 예외 발생시 프로그램이 종료된다.
 ```cpp
 #include "GenerateException.h"
 #include <stdio.h>
@@ -30,6 +30,15 @@ public static void Main(string[] args)
 {
     try
     {
+        AccessViolation();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.ToString());
+    }
+    
+    try
+    {
         DivideZero();
     }
     catch (Exception e)
@@ -37,16 +46,9 @@ public static void Main(string[] args)
         Console.WriteLine(e.ToString());
     }
 
-    try
-    {
-        AccessViolation();
-    }
-    catch (Exception e)
-    {
-        Console.WriteLine(e.ToString());
-    }
+   
 }
 ```
 
-![이미지이름](./result.png)
+![이미지이름](./result1.png)
 
